@@ -3,7 +3,9 @@ html {
   }
   
   body {
-    background-color:linen;
+    background-color: #f0f0f0; /* Vaaleanharmaa tausta */
+    color: #333; /* Tummanharmaa teksti */
+    font-family: Arial, sans-serif; /* Fontti */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -12,4 +14,26 @@ html {
   
   main {
     text-align: center;
+    background-color: #fff; /* Valkoinen tausta */
+    padding: 20px; /* Lisätään väliä sisältöön */
+    border-radius: 10px; /* Pyöristetään reunat */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Varjo */
   }
+  
+  h1 {
+    color: #ff6600; /* Oranssi otsikko */
+  }
+  
+  p {
+    color: #666; /* Harmaa kappaleteksti */
+  }
+  
+  a {
+    color: #0099ff; /* Sininen linkki */
+    text-decoration: none; /* Poistetaan alleviivaus */
+  }
+  
+  a:hover {
+    text-decoration: underline; /* Korostetaan linkkiä hiiren ollessa päällä */
+  }
+  
